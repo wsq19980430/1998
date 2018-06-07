@@ -10,3 +10,97 @@ body {
   height: 100%;
   overflow: hidden;
 }
+body{
+    font-size:.32rem;
+}
+.wrap{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+}
+
+header{
+    width:100%;
+    height:1rem;
+    background:red;
+}
+footer{
+     width:100%;
+    height:1rem;
+    background:yellow;
+}
+section{
+    flex:1;
+}
+section .head {
+  width: 100%;
+
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .head dl {
+  flex-basis: 20%;
+  flex-direction: column;
+}
+
+section .head dl dt {
+  padding-top: 0.1rem;
+  text-align:center;
+}
+
+section .head dl dt i {
+  width: 0.35rem;
+  height: 0.35rem;
+  font-size: .5rem;
+  border: .01rem solid #ece7e7;
+  border-radius: 50%;
+}
+
+section .head dl dd {
+  padding-top: 0.1rem;
+  color: #464343;
+}
+
+section .head dl:nth-child(1) dt i {
+  color: red;
+}
+
+section .head dl:nth-child(2) dt i {
+  color: #e42828;
+}
+
+section .head dl:nth-child(3) dt i {
+  color: orange;
+}
+
+section .head dl:nth-child(4) dt i {
+  color: #646319;
+}
+
+section .head dl:nth-child(5) dt i {
+  color: blue;
+}
+
+section .head dl:nth-child(6) dt i {
+  color: #2ef73f;
+}
+
+section .head dl:nth-child(7) dt i {
+  color: red;
+}
+
+section .head dl:nth-child(8) dt i {
+  color: blue;
+}
+
+section .head dl:nth-child(9) dt i {
+  color: orange;
+}
+
+section .head dl:nth-child(10) dt i {
+  color: orange;
+}
+
